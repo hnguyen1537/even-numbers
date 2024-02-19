@@ -1,3 +1,12 @@
-# even-numbers
+# Your name
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/locbaoodo/even-numbers)
+FIRST NAME: <Replace this with your first name>
+LAST NAME: <Replace this with your last name>
+
+# Even Numbers
+
+Create a string of even numbers from 0 to n inclusively, with a comma as separator between two consecutive even numbers.
+
+For example: if `n = 10`, the `result` is `"0,2,4,6,8,10"`
+if `n = 0`; the `result` is `"0"`
+if `n = -1`; the `result` is `undefined`
