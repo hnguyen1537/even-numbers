@@ -14,11 +14,13 @@ console.log(n);
  * For example: if n = 10, the result is "0,2,4,6,8,10"
  */
 let result = "";
-for (i = 0; i < n; i += 2) { 
-  result += i + ",";
+for (let i = 0; i <= n; i += 2) {
+  result += i;
+  if (i < n - 1) {
+    result += ",";
+  }
 }
-
-
+ console.log(result);
 // DO NOT CHANGE THE LINE BELOW.
 console.log(result);
 
