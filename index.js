@@ -13,12 +13,11 @@ console.log(n);
  * even numbers.
  * For example: if n = 10, the result is "0,2,4,6,8,10"
  */
-let result = '';
-for (i = 0; i <= n; i++) { 
-  if (i !== 0) { 
-    result += "," + i;
-  }
+let result = "";
+for (i = 0; i < n; i += 2) { 
+  result += i + ",";
 }
+
 
 // DO NOT CHANGE THE LINE BELOW.
 console.log(result);
